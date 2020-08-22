@@ -1,0 +1,58 @@
+woqrk1
+
+
+import time
+
+myBulbasaurName = "Bulbasaur"
+myBulbasaurHP = "66"
+
+wildPokemonName = "Ekans"
+wildPokemonHP = "25"
+
+print("Would you like to walk around?")
+walkAround = input()
+if walkAround == "No":
+    print ("Maybe next time")
+if walkAround == "Yes":
+    print ("You walk around in the tall grass")
+    time.sleep(3)
+    print ("Uh oh, you see a wild Pokemon")
+    print ("""        _
+      ,\'   .,-.     `.
+     \'`...( |  |      \
+    |      `--\'        .
+    \'_,...__,\'          `
+     `._                 `
+        `..______         |
+             |.          ,|
+             | `-.....,-\" |
+             |            j
+             ^.         _F
+            /  `-.....-\'/
+           /          ,\'
+          /          /
+         /          /
+        j       _.-- .
+        |      /     ,+---....___
+        L     /     /            \"\"`-.._
+         \   j     j                    `-.
+          `. |     |            .\'         `
+            `+...__|__       .,+-..         |
+                      \"\"`._.l      `.       j
+                      ,.-\"   \"-.     L    ,\'
+                    ,\'          L    : _.\'
+                   /            |   _:\'
+                  .            .|,-\'
+                   .            `.._
+   \'\               `-.             `\"-.
+ ,`.\'                  `-.              L
+ |  )                     `-. _...__     |
+.\'-\'                         )      `.   j
+|  |_                      _,\'\"\"`.    \ /
+ .-\' `+._               _,\"       `.  |/
+  \   |  \"`,,,,,....---\'           | .\'
+   `-.\'   /                        |+
+      `--+                     _.-\'
+          `--.___       __.---\'""")
+
+print("attack?")
